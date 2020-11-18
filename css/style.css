@@ -1,0 +1,227 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
+.slider-item1{
+	background-image:url("../img/project1.jpg");
+	width:100%;
+	height:500px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.slider-item2{
+	background-image:url("../img/project.jpg");
+	width:100%;
+	height:500px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.slider-item3{
+	background-image:url("../img/project2.jpg");
+	width:100%;
+	height:500px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.slider-content{
+	padding:150px 0;
+}
+.slider-content h2 {
+	font-size: 40px;
+	color: red;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+.slider-content p {
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+.slider-content a{
+	padding: 15px 0;
+}
+.header-area {
+	background: #ccd9bf;
+	overflow: hidden;
+	opacity:.7;
+}
+.logo-area {
+	width: 100%;
+}
+.logo-area img {
+	margin-top: 43px;
+}
+.menu-area {
+	float: right;
+}
+.menu-area ul {
+	list-style: none;
+}
+.menu-area ul li {
+	display: inline-block;
+	margin-top: 15px;
+	position:relative;
+}
+.menu-area ul li a {
+	color: red;
+	padding: 20px;
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	position:relative;
+}
+.menu-area ul li a::before{
+	position:absolute;
+	content:"";
+	width:100%;
+	height:2px;
+	background:red;
+	bottom:0;
+	left:0;
+	opacity:0;
+}
+.menu-area ul li a:hover::before{
+	opacity:1;
+	transition:.5s;
+}
+.dot{
+	width:10px !important;
+	height:10px !important;
+	border-radius:50% !important;
+	background:red !important;
+}
+.carousel-indicators .active{
+	background:green !important;
+}
+.section-area{
+	padding:100px 0;
+	background:gray;
+}
+.section-content h2 {
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.section-content p {
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.progress-area h2 {
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.skill-area {
+	padding: 100px 0;
+	background: #a8adb7;
+}
+.skill-content h2{
+	color: #f20505;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.skill-content p{
+	color: #f20505;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.progress-area span {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.team-area{
+	padding:100px 0;
+	background:gray;
+}
+.team-content h2 {
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.team-content p {
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	padding-bottom: 60px;
+}
+*ul{
+	list-style:none;
+}
+.social-icon{}
+.social-icon li{}
+.social-icon a {
+	font-size: 20px;
+	padding: 10px;
+	color: #ee0a0a;
+	border: 1px solid green;
+	border-radius: 50%;
+}
+.contact-area{
+	padding:100px 0;
+	background:#352222;
+}
+.contact-area h2 {
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.contact-area p {
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
